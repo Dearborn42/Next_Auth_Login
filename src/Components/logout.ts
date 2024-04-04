@@ -2,8 +2,8 @@
 import { cookies } from "next/headers";
 import { SignJWT, jwtVerify } from "jose";
 import { NextRequest, NextResponse } from "next/server";
-import dotenv from "dotenv";
-dotenv.config();
+// import dotenv from "dotenv";
+// dotenv.config();
 
 const key = process.env.SECRET_KEY as string
 const secret = new TextEncoder().encode(key)

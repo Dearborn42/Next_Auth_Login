@@ -1,3 +1,4 @@
+"use server";
 import { NextRequest } from "next/server";
 import { sessionUpdate } from "./Components/logout";
 
